@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!----------------------
+					Bienvenidos a iLibra TV
+					
+					
+					Lista de canales para KODI
+					
+					
+					
+					
+					
+					1.  Instalar el Addon iLibraTV 
+						Descargar: http://...
+						Mirror Mediafire: http://...
+					2.- Disfrutar ! 
+					
+					
+					
+					Para que la lista siga activa, apoyome invitandome un café.
+					
+					A tráves de una donación PAYPAL
+					
+					
+					a la cuenta ilibra.pe@gmail.com
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					Ayuda, soporte, quejas y sugerencias.
+					
+					
+					FB: iLibra.pe
+					Twitter: @iLibraTV
+					
+					
+					
+					
+									
+-->
+
+
+
+<items>
+<items_info> <!-- this is opitonal -->
+      <title>iLibraTV</title> 
+      <genre>TV en vivo</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail>http://i.imgur.com/9ZRi8uw.jpg</thumbnail>
+      <fanart>http://i.imgur.com/ZOX98V2.jpg</fanart>
+      <date>19.03.2015</date>
+      <cwhiteits>iLibra</cwhiteits>
+    </items_info>
+	
+	
+	<!--http://i.imgur.com/...png-->
+
+
+
+
+
+
+
+
+	
+
+<item>
+<title>[COLOR mediumvioletred][B]i [/COLOR][COLOR aluminium]Libra[/B][/COLOR]</title>
+<link>http://...</link><thumbnail>http://i.imgur.com/ZOX98V2.jpg</thumbnail><fanart>http://i.imgur.com/ZOX98V2.jpg</fanart>
+</item>
+<item>
+<title>[COLOR aluminium]Donaciones por [COLOR mediumvioletred]PayPal:[/COLOR]ilibra.pe@gmail.com[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/ExeDNQQ.jpg</thumbnail><fanart>http://i.imgur.com/ZOX98V2.jpg</fanart>
+</item>
+<item>
+<title>[COLOR aluminium]Update:[COLOR mediumvioletred]16[/COLOR]• Marzo • 2016[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/uUKSz3z.jpg</thumbnail><fanart>http://i.imgur.com/ZOX98V2.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- iLibra.kodistream.info -->
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Deportes[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/O2hrjGj.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/deportes.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Peliculas[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/MbgeN0F.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/peliculas.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Series de TV[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/sXAP0op.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/series.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]España[/COLOR]</title>
+<link>http://...</link><thumbnail>http://i.imgur.com/lmIYTAw.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/espana.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]México[/COLOR]</title>
+<link>http://...</link><thumbnail>http://i.imgur.com/P0kJcIN.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/mexico.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Perú[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/yH2WN7i.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/peru.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]TotalPlay[/COLOR][COLOR aluminium][Funcionando en México o con VPN][/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/yUjvwsG.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/totalplay.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Entretenimiento[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/Reo9LZm.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/entretenimiento.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Peliculas & Series de TV[/COLOR][COLOR aluminium]24/7[/COLOR]</title>
+<!--  <link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+			<title>[makelist.param2]</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_[makelist.param1] live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_[makelist.param1]$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail></item>
+]]></listrepeat>
+<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+<page>http://vaughnlive.tv/browse/espanol</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>-->
+<link>http://...</link><thumbnail>http://imgur.com/wVFGe60.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/p247.xml</externallink>
+</item>
+
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Música[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/6uw1xNA.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/musica.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Radios[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/5VNlnb7.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/radios.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Paises[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/PCxjoMG.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/paises.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Internacional[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/Lf6VZVx.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/global.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]•[/COLOR][COLOR mediumvioletred]Mas listas[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/TkY4vF4.jpg</thumbnail><fanart>http://i.imgur.com/CBllNVn.jpg</fanart>
+<externallink>http://hots/ilibra/listas.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR aluminium]Si te gusto la lista, considera hacer una[/COLOR][COLOR mediumvioletred]DONACION[/COLOR], para apoyarme y seguir actualizando.[/COLOR]</title>
+<link>http://...</link><thumbnail>http://imgur.com/ExeDNQQ.jpg</thumbnail><fanart>http://i.imgur.com/ZOX98V2.jpg</fanart>
+</item>
+	
+--> 
+
+</items>
+
+
+
